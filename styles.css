@@ -53,6 +53,7 @@ header {
 
 section {
   padding: 20px;
+  margin-top: 10px;
   margin-bottom: 30px;
   background-color: #eee;
 }
@@ -62,6 +63,12 @@ section h2 {
 }
 
 /*about section*/
+
+#about {
+  background-color: rgb(255, 255, 255);
+  font-family: Nunito;
+}
+
 .profile-picture {
   width: 250px;
   height: 250px;
@@ -75,6 +82,9 @@ section h2 {
 
 .blog-post {
   margin-bottom: 50px;
+  background-color: rgb(245, 245, 245);
+  padding: 50px;
+  border-radius: 5px 5px 0 0;
 }
 
 .blog-post h3 {
@@ -93,6 +103,7 @@ section h2 {
 /*portfolio*/
 #portfolio {
   padding: 50px 0;
+  background-color: #fff;
 }
 
 #portfolio h2 {
@@ -120,8 +131,6 @@ section h2 {
   background-color: #0069d9;
   border-color: #0062cc;
 }
-
-
 
 footer {
   background-color: #333;

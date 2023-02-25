@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Personal Website</title>
+  <title>thanawit.com</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
@@ -22,14 +22,15 @@
       <nav class="navbar d-flex justify-content-center py-3">
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Me</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Stories</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
+  <br>
 
 
   <!-- Main Content Section -->
@@ -39,14 +40,20 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-1">
+            <span></span>
+          </div>
+          <div class="col-md-3 col-sm-12 d-flex justify-content-center">
             <img src="img/profile-pic.jpg" class="profile-picture rounded-circle" alt="profile-picture">
           </div>
-          <div class="col-md-8">
-            <h1>hello,</h2>
-            <h1>I'm Boss</h2>
-            <h4>aka THANAWIT SUWANNIKOM</h4>
-            <h4>Data Scientist | Problem Solver</h4>
+          <div class="col-md-8 col-sm-12">
+            <div class="about-intro">
+              <h1>hello,</h1>
+              <h1>I'm Boss</h1>
+            </div>
+            
+            <h5>aka THANAWIT SUWANNIKOM</h5>
+            <h6>Data Scientist | Problem Solver</h6>
             <p>
               I am enthusiastic in learning and truly believe in life-long learning. We can solve any problem if we know enough.
             </p>
@@ -59,28 +66,29 @@
 
     <section id="blog">
       <div class="container">
-        <h2>Blog</h2>
+        <h2 class="d-flex justify-content-center">Stories</h2>
+        <br>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="blog-post">
-              <h3>Blog Post Title</h3>
-              <p class="blog-post-meta">January 1, 2022 by John Doe</p>
+              <h3>How did I become a data scientist</h3>
+              <p class="blog-post-meta">January 1, 2023 by Thanawit</p>
               <p>This is a brief synopsis of the blog post. It should be short enough to fit in this space and long enough to give the reader an idea of what the post is about.</p>
               <a href="#" class="btn btn-primary">Read More</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="blog-post">
-              <h3>Blog Post Title</h3>
-              <p class="blog-post-meta">January 1, 2022 by John Doe</p>
+              <h3>People manager and Team Leader ??</h3>
+              <p class="blog-post-meta">January 3, 2022 by Thanawit</p>
               <p>This is a brief synopsis of the blog post. It should be short enough to fit in this space and long enough to give the reader an idea of what the post is about.</p>
               <a href="#" class="btn btn-primary">Read More</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="blog-post">
-              <h3>Blog Post Title</h3>
-              <p class="blog-post-meta">January 1, 2022 by John Doe</p>
+              <h3>Technology in the next 10 years</h3>
+              <p class="blog-post-meta">January 5, 2022 by Thanawit</p>
               <p>This is a brief synopsis of the blog post. It should be short enough to fit in this space and long enough to give the reader an idea of what the post is about.</p>
               <a href="#" class="btn btn-primary">Read More</a>
             </div>
@@ -92,9 +100,9 @@
 
     <section id="portfolio">
       <div class="container">
-        <h2>Portfolio</h2>
+        <h2 class="d-flex justify-content-center">Projects</h2>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6 col-sm-12 col-lg-4">
             <div class="card mb-4">
               <img src="img/projects/project1.jpg" class="card-img-top" alt="Project 1">
               <div class="card-body">
@@ -104,7 +112,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-sm-12 col-lg-4">
             <div class="card mb-4">
               <img src="img/projects/project2.jpg" class="card-img-top" alt="Project 2">
               <div class="card-body">
@@ -114,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-sm-12 col-lg-4">
             <div class="card mb-4">
               <img src="img/projects/project3.jpg" class="card-img-top" alt="Project 3">
               <div class="card-body">
