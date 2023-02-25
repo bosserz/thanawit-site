@@ -1,0 +1,131 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo {
+  font-family: Gloock, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-nav li:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+
+section {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #eee;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/*about section*/
+.profile-picture {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/*blog section*/
+#blog {
+  padding: 50px 0;
+}
+
+.blog-post {
+  margin-bottom: 50px;
+}
+
+.blog-post h3 {
+  margin-top: 0;
+}
+
+.blog-post p {
+  margin-bottom: 20px;
+}
+
+.blog-post-meta {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/*portfolio*/
+#portfolio {
+  padding: 50px 0;
+}
+
+#portfolio h2 {
+  margin-bottom: 30px;
+}
+
+#portfolio .card {
+  border: none;
+}
+
+#portfolio .card-img-top {
+  border-radius: 5px 5px 0 0;
+}
+
+#portfolio .card-text {
+  margin-top: 10px;
+}
+
+#portfolio .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#portfolio .btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
